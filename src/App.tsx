@@ -5,12 +5,14 @@ import SearchBar from "./SearchBar"
 
 const App = () => {
   return (
-    <>
-      <Dashboard />
-      <SearchBar />
-      <Profile />
-      <Henhouse />
-    </>
+    <div className="grid grid-cols-[250px_1fr] bg-slate-200">
+      <Dashboard className="" />
+      <div>
+        <SearchBar />
+        <Profile />
+        <Henhouse />
+      </div>
+    </div>
   )
 }
 

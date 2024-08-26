@@ -6,14 +6,12 @@ import chickenLord from "/public/chickenlord.webp"
 
 const SearchBar = () => {
   return (
-    <div className="flex items-center">
-      <div className="flex items-center gap-4">
+    <div className="flex items-center bg-white p-4">
+      <div className="flex flex-1 items-center gap-4">
         <SVGLoop size="2rem" />
-        <form action="#" method="get">
-          <input type="text" className="rounded-xl bg-slate-200" />
-        </form>
+        <input type="text" className="flex-1 rounded-xl bg-slate-200 p-1" />
       </div>
-      <div className="ml-auto flex items-center gap-8">
+      <div className="ml-64 flex items-center gap-4">
         <SVGBell size="2rem" />
         <img
           className="w-16 rounded-full"
