@@ -1,4 +1,5 @@
 import Dashboard from "./Dashboard"
+import Henhouse from "./Henhouse"
 import Profile from "./Profile"
 import SearchBar from "./SearchBar"
 
@@ -8,6 +9,7 @@ const App = () => {
       <Dashboard />
       <SearchBar />
       <Profile />
+      <Henhouse />
     </>
   )
 }
